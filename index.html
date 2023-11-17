@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <section class="container-fluid ">
+      <article class="card">
+        <div class="row g-0">
+          <div class="col-md-7 wordside">
+            <div class="card-body">
+              <h1 class="headingone">Stay updated!</h1>
+              <p class="firstpara">Join 60,000+ product managers receiving monthly updates on:</p>
+              <div class="icon_words">
+                <div class="firstword">
+                  <img src="assets/images/icon-list.svg" alt="image">
+                  <p class="para">Product discovery and building what matters</p>
+                </div>
+                <div class="secondword">
+                  <img src="assets/images/icon-list.svg" alt="image">
+                  <p class="para">Measuring to ensure updates are a success</p>
+                </div>
+                <div class="thirdword">
+                  <img src="assets/images/icon-list.svg" alt="image">
+                  <p class="para">And much more!</p>
+                </div>
+              </div>
+              <form  onsubmit="ValidationForm(event)">
+                <div class="labelparent d-flex justify-content-between align-items-center">
+                  <label for="email" class="label">Email address</label>
+                  <p  class="label redLabel"></p>
+                </div>
+      
+                <input type="email" name="email" class="email" id="email" placeholder="email@company.com">
+                <button type="submit" class="btn">Subscribe to monthly newsletter</button>
+              </form>
+            </div>
+      
+      
+          </div>
+      
+          <div class="col-md-5 order-first order-md-last allImage">
+      
+            <div class="imageside">
+              <img src="assets/images/illustration-sign-up-desktop.svg" class="heroImg" alt="img">
+            </div>
+      
+            <div class="mobileImage">
+              <img src="assets/images/illustration-sign-up-mobile.svg" class="mobileImg" alt="img">
+            </div>
+      
+          </div>
+      
+      
+      
+        </div>
+      </article>
+
+      <!-- submission section -->
+      <section class="banner">
+          <article class="smallHero">
+            <img src="assets/images/icon-success.svg" class="mb-4" width="50px" alt="">
+            <h1 class="secondHeading mb-3">Thanks for subscribing!</h1>
+            <p class="">A confirmation email has been sent to <span class="showemail">ash@loremcompany.com</span>.
+              Please open it and click the button inside to confirm your subscription.</p>
+            <button type="button" class="smallHeroBtn">Dismiss message</button>
+          </article>
+        
+      </section>
+     
+    </section>
+    
+    
+   
+
+  <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
