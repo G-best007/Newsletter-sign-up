@@ -32,7 +32,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click to view project](https://g-best007.github.io/Newsletter-sign-up/)
 
 ## My process
 
@@ -56,7 +56,7 @@ This project enlighted me to surf and learn more about form especially in the va
 
 ## Author
 
-- Frontend Mentor - [@yG-best007](https://www.frontendmentor.io/profile/G-best007)
-- Twitter - [@yG-best007](https://www.twitter.com/g_best007)
+- Frontend Mentor - [@G-best007](https://www.frontendmentor.io/profile/G-best007)
+- Twitter - [@G-best007](https://www.twitter.com/g_best007)
 
 
